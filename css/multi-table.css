@@ -1,0 +1,555 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-sizing: 0;
+    background-repeat: no-repeat;
+    background-position: cover;
+    background: rgb(30, 215, 73);
+}
+
+#main-head {
+    width: 960px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    font-style: oblique;
+    color: bisque;
+    border-bottom: 3px solid #7e7b7b;
+}
+
+
+/* ADDITION TABLE */
+
+.wrap1 {
+    border: 5px solid #7e7b7b;
+    width: 960px;
+    height: 420px;
+}
+
+#adds1,
+#adds2,
+#adds3,
+#adds4,
+#adds5 {
+    float: left;
+    font-size: 18px;
+    padding: 30px
+}
+
+
+/* 1 PLUS */
+
+.adds1 {
+    text-align: justify;
+    padding-left: 50px;
+    margin-top: -20px;
+}
+
+.adds1 p {
+    color: #ffffff;
+    padding-left: 26px;
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+
+#adds1 {
+    border-right: 2px solid #7e7b7b;
+    padding-right: 30px;
+    padding-left: 20px;
+    margin-top: -32px;
+}
+
+
+/* 3 PLUS */
+
+.adds2 {
+    text-align: justify;
+    padding-left: 230px;
+    margin-top: -47px;
+}
+
+#adds2 {
+    border-right: 2px solid #7e7b7b;
+    padding-right: 30px;
+    padding-left: 20px;
+    margin-top: -42px;
+}
+
+.adds2 p {
+    color: #ffffff;
+    text-align: left;
+    padding-left: 25px;
+    font-size: 20px;
+}
+
+
+/* 5 PLUS */
+
+.adds3 {
+    text-align: justify;
+    padding-left: 420px;
+    margin-top: -43px;
+}
+
+#adds3 {
+    border-right: 2px solid #7e7b7b;
+    padding-right: 30px;
+    padding-left: 10px;
+    margin-top: -43px;
+}
+
+.adds3 p {
+    color: #ffffff;
+    text-align: left;
+    padding-left: 25px;
+    font-size: 20px;
+}
+
+
+/* 7 PLUS */
+
+.adds4 {
+    text-align: justify;
+    padding-left: 610px;
+    margin-top: -43px;
+}
+
+#adds4 {
+    border-right: 2px solid #7e7b7b;
+    padding-right: 30px;
+    padding-left: 10px;
+    margin-top: -43px;
+}
+
+.adds4 p {
+    color: #ffffff;
+    text-align: left;
+    padding-left: 15px;
+    font-size: 20px;
+}
+
+
+/* 9 PLUS */
+
+.adds5 {
+    text-align: justify;
+    padding-left: 800px;
+    margin-top: -43px;
+}
+
+#adds5 {
+    padding-right: 30px;
+    padding-left: 10px;
+    margin-top: -43px;
+}
+
+.adds5 p {
+    color: #ffffff;
+    text-align: left;
+    padding-left: 25px;
+    font-size: 20px;
+}
+
+
+/* SUBTRACTION TABLE */
+
+.wrap2 {
+    border: 5px solid #7e7b7b;
+    width: 960px;
+    height: 420px;
+    margin-top: 10px;
+}
+
+#sub1,
+#sub2,
+#sub3,
+#sub4,
+#sub5 {
+    float: left;
+    font-size: 18px;
+    padding: 30px
+}
+
+
+/* 1 MINUS */
+
+.sub1 {
+    text-align: justify;
+    padding-left: 50px;
+    margin-top: -20px;
+}
+
+.sub1 p {
+    color: #ffffff;
+    padding-left: 26px;
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+
+#sub1 {
+    border-right: 2px solid #7e7b7b;
+    padding-right: 30px;
+    padding-left: 20px;
+    margin-top: -32px;
+}
+
+
+/* 3 MINUS */
+
+.sub2 {
+    text-align: justify;
+    padding-left: 240px;
+    margin-top: -47px;
+}
+
+#sub2 {
+    border-right: 2px solid #7e7b7b;
+    padding-right: 30px;
+    padding-left: 20px;
+    margin-top: -42px;
+}
+
+.sub2 p {
+    color: #ffffff;
+    text-align: left;
+    padding-left: 19px;
+    font-size: 20px;
+}
+
+
+/* 5 MINUS */
+
+.sub3 {
+    text-align: justify;
+    padding-left: 430px;
+    margin-top: -43px;
+}
+
+#sub3 {
+    border-right: 2px solid #7e7b7b;
+    padding-right: 30px;
+    padding-left: 10px;
+    margin-top: -43px;
+}
+
+.sub3 p {
+    color: #ffffff;
+    text-align: left;
+    padding-left: 15px;
+    font-size: 20px;
+}
+
+
+/* 7 MINUS */
+
+.sub4 {
+    text-align: justify;
+    padding-left: 620px;
+    margin-top: -43px;
+}
+
+#sub4 {
+    border-right: 2px solid #7e7b7b;
+    padding-right: 30px;
+    padding-left: 10px;
+    margin-top: -43px;
+}
+
+.sub4 p {
+    color: #ffffff;
+    text-align: left;
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+
+/* 9 MINUS */
+
+.sub5 {
+    text-align: justify;
+    padding-left: 800px;
+    margin-top: -43px;
+}
+
+#sub5 {
+    padding-right: 30px;
+    padding-left: 10px;
+    margin-top: -43px;
+}
+
+.sub5 p {
+    color: #ffffff;
+    text-align: left;
+    padding-left: 16px;
+    font-size: 20px;
+}
+
+
+/* MULTIPLICATION TABLE */
+
+.wrap3 {
+    border: 5px solid #7e7b7b;
+    width: 960px;
+    height: 420px;
+    margin-top: 10px;
+}
+
+#mul1,
+#mul2,
+#mul3,
+#mul4,
+#mul5 {
+    float: left;
+    font-size: 18px;
+    padding: 30px
+}
+
+
+/* 1 TIMES */
+
+.mul1 {
+    text-align: justify;
+    padding-left: 50px;
+    margin-top: -20px;
+}
+
+.mul1 p {
+    color: #ffffff;
+    padding-left: 26px;
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+
+#mul1 {
+    border-right: 2px solid #7e7b7b;
+    padding-right: 30px;
+    padding-left: 20px;
+    margin-top: -32px;
+}
+
+
+/* 3 TIMES */
+
+.mul2 {
+    text-align: justify;
+    padding-left: 240px;
+    margin-top: -47px;
+}
+
+#mul2 {
+    border-right: 2px solid #7e7b7b;
+    padding-right: 30px;
+    padding-left: 20px;
+    margin-top: -42px;
+}
+
+.mul2 p {
+    color: #ffffff;
+    text-align: left;
+    padding-left: 19px;
+    font-size: 20px;
+}
+
+
+/* 5 TIMES */
+
+.mul3 {
+    text-align: justify;
+    padding-left: 430px;
+    margin-top: -43px;
+}
+
+#mul3 {
+    border-right: 2px solid #7e7b7b;
+    padding-right: 30px;
+    padding-left: 10px;
+    margin-top: -43px;
+}
+
+.mul3 p {
+    color: #ffffff;
+    text-align: left;
+    padding-left: 15px;
+    font-size: 20px;
+}
+
+
+/* 7 TIMES */
+
+.mul4 {
+    text-align: justify;
+    padding-left: 620px;
+    margin-top: -43px;
+}
+
+#mul4 {
+    border-right: 2px solid #7e7b7b;
+    padding-right: 30px;
+    padding-left: 10px;
+    margin-top: -43px;
+}
+
+.mul4 p {
+    color: #ffffff;
+    text-align: left;
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+
+/* 9 TIMES */
+
+.mul5 {
+    text-align: justify;
+    padding-left: 800px;
+    margin-top: -43px;
+}
+
+#mul5 {
+    padding-right: 30px;
+    padding-left: 10px;
+    margin-top: -43px;
+}
+
+.mul5 p {
+    color: #ffffff;
+    text-align: left;
+    padding-left: 16px;
+    font-size: 20px;
+}
+
+
+/* DIVISION TABLE */
+
+.wrap4 {
+    border: 5px solid #7e7b7b;
+    width: 960px;
+    height: 420px;
+    margin-top: 10px;
+}
+
+#dvd1,
+#dvd2,
+#dvd3,
+#dvd4,
+#dvd5 {
+    float: left;
+    font-size: 18px;
+    padding: 30px
+}
+
+
+/* 1 DIVIDE */
+
+.dvd1 {
+    text-align: justify;
+    padding-left: 50px;
+    margin-top: -20px;
+}
+
+.dvd1 p {
+    color: #ffffff;
+    padding-left: 26px;
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+
+#dvd1 {
+    border-right: 2px solid #7e7b7b;
+    padding-right: 30px;
+    padding-left: 20px;
+    margin-top: -32px;
+}
+
+
+/* 3 DIVIDE */
+
+.dvd2 {
+    text-align: justify;
+    padding-left: 240px;
+    margin-top: -47px;
+}
+
+#dvd2 {
+    border-right: 2px solid #7e7b7b;
+    padding-right: 30px;
+    padding-left: 20px;
+    margin-top: -42px;
+}
+
+.dvd2 p {
+    color: #ffffff;
+    text-align: left;
+    padding-left: 19px;
+    font-size: 20px;
+}
+
+
+/* 5 DIVIDE */
+
+.dvd3 {
+    text-align: justify;
+    padding-left: 430px;
+    margin-top: -43px;
+}
+
+#dvd3 {
+    border-right: 2px solid #7e7b7b;
+    padding-right: 30px;
+    padding-left: 10px;
+    margin-top: -43px;
+}
+
+.dvd3 p {
+    color: #ffffff;
+    text-align: left;
+    padding-left: 15px;
+    font-size: 20px;
+}
+
+
+/* 7 DIVIDE */
+
+.dvd4 {
+    text-align: justify;
+    padding-left: 620px;
+    margin-top: -43px;
+}
+
+#dvd4 {
+    border-right: 2px solid #7e7b7b;
+    padding-right: 30px;
+    padding-left: 10px;
+    margin-top: -43px;
+}
+
+.dvd4 p {
+    color: #ffffff;
+    text-align: left;
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+
+/* 9 DIVIDE */
+
+.dvd5 {
+    text-align: justify;
+    padding-left: 800px;
+    margin-top: -43px;
+}
+
+#dvd5 {
+    padding-right: 30px;
+    padding-left: 10px;
+    margin-top: -43px;
+}
+
+.dvd5 p {
+    color: #ffffff;
+    text-align: left;
+    padding-left: 16px;
+    font-size: 20px;
+}
